@@ -20,10 +20,27 @@ body {
 }
 
 main {
+    display: flex;
+    gap: 2rem;
+}
+
+#user-interface {
     width: 30rem;
     padding: 2rem;
     border: 0.5rem solid var(--color-black-100);
     border-radius: 1rem;
+    background-color: var(--color-white-000);
+}
+
+#website {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 10rem;
+    padding: 2rem;
+    border: 0.5rem solid var(--color-black-200);
+    border-radius: 1rem;
+    color: var(--color-black-200);
     background-color: var(--color-white-000);
 }
 
