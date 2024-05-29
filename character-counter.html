@@ -11,16 +11,23 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="character-counter.css">
-    <script src="character-counter.js"></script>
+    <script defer src="character-counter.js"></script>
 </head>
 <body>
     <main>
-        <label for="user-text">Enter Text</label>
-        <textarea id="user-text" rows="5"></textarea>
-        <div class="buttons">
-            <button type="reset" id="reset-button">Reset</button>
-            <button type="submit" id="complete-button">Complete</button>
-        </div>
+        <section id="user-interface">
+            <label for="user-text">Enter Text</label>
+            <textarea id="user-text" rows="5"></textarea>
+            <div class="buttons">
+                <button type="button" id="reset-button">Reset</button>
+                <button type="button" id="complete-button">Complete</button>
+            </div>
+        </section>
+        <section id="website">
+            <p><strong>Characters: </strong><span id="character-count">0</span></p>
+            <p><strong>Words: </strong><span id="word-count">0</span></p>
+            <p><strong>Lines: </strong><span id="line-count">0</span></p>
+        </section>
     </main>
 </body>
 </html>

@@ -76,6 +76,10 @@ button {
     border-radius: 0.5rem;
 }
 
+button:hover {
+    box-shadow: 0 0 0.5rem rgba(50, 50, 50, 0.5);
+}
+
 #reset-button {
     color: var(--color-pink-200);
     background-color: var(--color-white-000);
